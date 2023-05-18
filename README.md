@@ -39,6 +39,7 @@ Dentro de um sistema, é fundamental garantir a liberdade do usuário para execu
 <details> <summary>Bom exemplo</summary> 
 print do gmail
 </details>
+No caso do Gmail, podemos observar claramente um bom uso quando o usuário envia um e-mail de forma errônea, pois ele tem a capacidade de reverter essa ação. Isso proporciona ao usuário um controle sobre a aplicação, permitindo-lhe agir sem medo e com liberdade, pois ele tem a possibilidade de reverter qualquer ação, se necessário.
 
 ### 4. Consistência e Padronização
 
@@ -48,7 +49,8 @@ A consistência no design refere-se à uniformidade visual e comportamental dos 
 
 <details> <summary>Mau exemplo</summary>teste </details>
 
-<details> <summary>Bom Exemplo</summary>Biblioteca do google </details>
+<details> <summary>Bom Exemplo</summary>Produtos google </details>
+Ao analisarmos as páginas do Google, podemos perceber que há um padrão consistente em termos de cores e informações. O Google utiliza a biblioteca "Material Design" de forma abrangente, o que evita que o usuário precise lidar com várias inconsistências de design. Isso proporciona uma experiência mais fluida e intuitiva, pois o usuário pode contar com uma interface coesa e familiar em todas as suas interações com os produtos do Google.
 
 ### 5. Prevenção de erros
 
@@ -57,6 +59,7 @@ A consistência no design refere-se à uniformidade visual e comportamental dos 
 A heurística de "Prevenção de Erros" reconhece a necessidade de projetar interfaces que ajudem os usuários a evitar erros e ofereçam mecanismos para corrigir ou reverter ações equivocadas
 
 <details> <summary>Bom Exemplo</summary>Caixa de confirmação para a exclusão de um arquivo no SO </details>
+Podemos observar o uso desta heurística em diversos sistemas operacionais, como no caso do exemplo o Windows. Ao tentarmos excluir um arquivo, é exibido um grande pop-up solicitando a confirmação dessa ação. Isso oferece uma camada adicional de segurança para o usuário, permitindo que erros sejam facilmente revertidos sem causar problemas graves. Essa abordagem resulta em uma interface mais confiável e segura, transmitindo maior tranquilidade ao usuário.
 
 ### 6. Reconhecimento em vez de recordação
 
@@ -64,13 +67,15 @@ O cérebro é altamente eficiente em reconhecer padrões, e à medida que objeto
 
 Tendo em vista este ponto, chegamos na sexta heurisítca. Onde ela prega por interfaces em que haja facilidade em reconhecer padrões, assim deixando a mente do usuário "fluir" sem esforço.
 
-<details> <summary>Bom Exemplo</summary>Novamente Biblioteca </details>
+<details> <summary>Bom Exemplo</summary>Novamente Biblioteca</details>
+Esta heurística está alinhada com a quarta heurística, que trata de consistência e padronização. Levando isso em consideração, podemos usar o exemplo do Google, onde é aplicada uma biblioteca de estilos padrão. Isso reduz o esforço cognitivo dos usuários, facilitando o reconhecimento e, por consequência, a recordação das interfaces. Com o tempo de uso, o fluxo de interação se torna natural e intuitivo, proporcionando uma experiência mais fluida e descomplicada.
 
 ### 7. Eficiência e flexibilidade de uso
 
 Esta heurística prega que as interfaces devem ser utéis tanto para usuários avançados, quanto leigos. Devem incluir informações para os iniciantes, para assim eles não se perderem ao mesmo tempo que suporte comandos mais avançados, para agilizar e facilitar a usabilidade dos usuários avançados
 
-<details> <summary>Bom Exemplo</summary>Caixa de confirmação para a exclusão de um arquivo no SO </details>
+<details> <summary>Bom Exemplo</summary>Pesquisa de imagem no Google </details>
+Ao realizar uma pesquisa de imagens no Google, podemos observar que tanto usuários iniciantes quanto avançados podem se beneficiar. Para os usuários mais básicos, a simples pesquisa por imagem trará resultados adequados, mesmo sem a necessidade de adicionar tags adicionais. Por outro lado, os usuários avançados têm a opção de adicionar mais tags à busca de imagem, o que proporciona um refinamento maior nos resultados. Dessa forma, a interface não é uma barreira para os iniciantes e não limita a capacidade dos usuários mais experientes. Isso garante que tanto os iniciantes quanto os avançados possam obter os resultados desejados de maneira adequada.
 
 ### 8. Estética e design minimalista
 
@@ -80,16 +85,19 @@ A oitava heurística enfatiza a importância de priorizar o conteúdo principal 
 
 <details> <summary>Bom Exemplo</summary>Comentar site clean e comentar biblioteca </details>
 
-<details> <summary>Bom Exemplo</summary>Caixa de confirmação para a exclusão de um arquivo no SO </details>
+<details> <summary>Bom Exemplo</summary>Site da Apple </details>
+Ao analisar o site da Apple, é evidente um claro foco em apelar para a simplicidade e o minimalismo. Essa abordagem tem como objetivo proporcionar uma experiência confortável para o usuário, evitando sobrecarregá-lo mentalmente com um excesso de informações na tela. O design minimalista contribui para um fluxo mais natural, permitindo que os usuários naveguem pelo site de maneira intuitiva. Essa estratégia da Apple resulta em uma interface agradável, que promove uma sensação de calma e clareza, facilitando a interação do usuário com o conteúdo disponível.
 
 ### 9. Ajude os usuários a reconhecer, diagnosticar e recuperar erros
 
 Como comentado anteriormente na quinta heurística, é normal os usuários cometerem erros. Também deve ser normal a interface poder reconhecer, diagnosticar e auxiliar a recuperar estes erros. As mensagens de erros devem ser claras e objetivas, em linguagem simples e que demonstre oque deu de errado.
 
-<details> <summary>Bom Exemplo</summary>Mensagem de erro do teams ao lado do login</details>
+<details> <summary>Bom Exemplo</summary>Mensagem de erro ao dar merge no github</details>
+Ao analisarmos a imagem, podemos observar que o Git, ao detectar uma incompatibilidade entre branches, exibe uma mensagem de erro correspondente. Além disso, ele oferece possíveis soluções e ajuda ao usuário, sem comprometer o projeto. Essa abordagem torna a interface amigável para lidar com possíveis erros, evitando que o usuário tenha seu trabalho prejudicado. Dessa forma, o Git fornece suporte e orientação para que o usuário possa resolver problemas e continuar seu trabalho de forma segura e confiável.
 
 ### 10. Ajuda e documentação
 
 É essencial fornecer aos usuários uma área dedicada onde eles possam encontrar canais de comunicação e documentação detalhada sobre cada componente da interface. Embora possa não ser o principal foco ou a parte mais atraente do sistema, é de suma importância oferecer esse suporte ao usuário, caso ele precise.
 
-<details> <summary>Bom Exemplo</summary>Documentação de ajuda de qualquer site </details>
+<details> <summary>Bom Exemplo</summary>Documentação Github </details>
+Ao clicarmos no botão de ajuda na interface do Github, somos direcionados a uma página que contém uma documentação completa. Isso permite que tenhamos acesso a todas as informações e recursos necessários em caso de necessidade de ajuda.
