@@ -8,10 +8,11 @@ O trabalho consistirá em apresentar dois exemplos para cada heurística, sendo 
 
 Nesta heurística temos relatada a importância de manter os usuários informados sobre o estado atual do sistema e fornecer feedbacks claros sobre suas interações.
 
-<details> <summary>Mau exemplo</summary>teste </details>
+<details> <summary>Mau exemplo</summary>Sistema Operacional Ubuntu</details>
+No Sistema Operacional Ubuntu, a interface deixa a desejar ao não fornecer nenhum feedback de sucesso quando o usuário digita um comando corretamente, o que pode deixar o usuário desorientado. Somente mensagens de erro são exibidas caso haja algum problema no comando digitado.
 
 <details> <summary>Bom exemplo</summary> 
-print do spotify
+Spotify
 </details>
 No caso do aplicativo web do Spotify, encontramos um exemplo em que a interface fornece informações claras sobre a música atual e a próxima música a ser reproduzida. Na parte superior, há uma barra de progresso que mostra em que ponto da música estamos, e se estamos nos aproximando do final. Além disso, no canto inferior direito, podemos visualizar a próxima música que será reproduzida.
 
@@ -21,7 +22,8 @@ Essa abordagem do Spotify permite que os usuários tenham uma compreensão clara
 
 A segunda heurística prega a correspondência entre o sistema e o mundo real, buscando estabelecer familiaridade entre o usuário e a interface. Para alcançar esse objetivo, é essencial utilizar uma linguagem comum e compreensível ao usuário dentro do sistema. Entenda-se por linguaguem texto, imagem, metáforas entre outras forams de expressão.
 
-<details> <summary>Mau exemplo</summary>teste </details>
+<details> <summary>Mau exemplo</summary>SIGA sistema da fatec </details>
+No Siga, encontramos uma seção chamada "upload de arquivos", que utiliza uma linguagem mais técnica e não reflete totalmente o contexto do mundo real. Isso vai contra a segunda heurística, pois pode causar confusão para usuários menos familiarizados com o termo.
 
 <details> <summary>Bom exemplo</summary> 
 print do chatgpt
@@ -47,7 +49,8 @@ Na quarta heurística de Nielsen, destaca-se a importância de manter uma interf
 
 A consistência no design refere-se à uniformidade visual e comportamental dos elementos de interface em todo o sistema. Isso significa que os elementos devem ter uma aparência e comportamento semelhantes em diferentes partes do sistema, para que os usuários possam reconhecê-los facilmente e saber o que esperar. Essa consistência contribui para uma experiência mais intuitiva, reduzindo a carga cognitiva dos usuários.
 
-<details> <summary>Mau exemplo</summary>teste </details>
+<details> <summary>Mau exemplo</summary>Site do STJ </details>
+Ao observarmos a opção "mais opções", notamos que somos redirecionados para uma página completamente diferente da página principal (home). Essa transição abrupta pode causar uma quebra na experiência do usuário e potencialmente gerar confusão.
 
 <details> <summary>Bom Exemplo</summary>Produtos google </details>
 Ao analisarmos as páginas do Google, podemos perceber que há um padrão consistente em termos de cores e informações. O Google utiliza a biblioteca "Material Design" de forma abrangente, o que evita que o usuário precise lidar com várias inconsistências de design. Isso proporciona uma experiência mais fluida e intuitiva, pois o usuário pode contar com uma interface coesa e familiar em todas as suas interações com os produtos do Google.
@@ -57,6 +60,9 @@ Ao analisarmos as páginas do Google, podemos perceber que há um padrão consis
 É natural que os usuários cometam erros, seja por descuido ou engano. Por isso, a quinta heurística de Nielsen traz a importância da prevenção e mitigação de erros nos sistemas. Os usuários devem ter a capacidade de prevenir erros e, caso cometam, ser capazes de minimizar as consequências negativas decorrentes desses erros.
 
 A heurística de "Prevenção de Erros" reconhece a necessidade de projetar interfaces que ajudem os usuários a evitar erros e ofereçam mecanismos para corrigir ou reverter ações equivocadas
+
+<details> <summary>Mau Exemplo</summary>Site do NF</details>
+Quando
 
 <details> <summary>Bom Exemplo</summary>Caixa de confirmação para a exclusão de um arquivo no SO </details>
 Podemos observar o uso desta heurística em diversos sistemas operacionais, como no caso do exemplo o Windows. Ao tentarmos excluir um arquivo, é exibido um grande pop-up solicitando a confirmação dessa ação. Isso oferece uma camada adicional de segurança para o usuário, permitindo que erros sejam facilmente revertidos sem causar problemas graves. Essa abordagem resulta em uma interface mais confiável e segura, transmitindo maior tranquilidade ao usuário.
@@ -83,7 +89,8 @@ Quanto mais informações são apresentadas na interface, maior é o tempo que u
 
 A oitava heurística enfatiza a importância de priorizar o conteúdo principal e minimizar informações secundárias na interface. Ao seguir essa heurística, é possível criar uma experiência mais eficiente e direcionada para os usuários.
 
-<details> <summary>Bom Exemplo</summary>Comentar site clean e comentar biblioteca </details>
+<details> <summary>Mau Exemplo</summary>Site do STJ</details>
+Ao analisarmos o site do STJ, percebemos que a página inicial apresenta uma grande quantidade de informações, combinando notícias com vários campos de pesquisa. Essa abordagem pode resultar em uma experiência confusa para os usuários.
 
 <details> <summary>Bom Exemplo</summary>Site da Apple </details>
 Ao analisar o site da Apple, é evidente um claro foco em apelar para a simplicidade e o minimalismo. Essa abordagem tem como objetivo proporcionar uma experiência confortável para o usuário, evitando sobrecarregá-lo mentalmente com um excesso de informações na tela. O design minimalista contribui para um fluxo mais natural, permitindo que os usuários naveguem pelo site de maneira intuitiva. Essa estratégia da Apple resulta em uma interface agradável, que promove uma sensação de calma e clareza, facilitando a interação do usuário com o conteúdo disponível.
@@ -92,12 +99,19 @@ Ao analisar o site da Apple, é evidente um claro foco em apelar para a simplici
 
 Como comentado anteriormente na quinta heurística, é normal os usuários cometerem erros. Também deve ser normal a interface poder reconhecer, diagnosticar e auxiliar a recuperar estes erros. As mensagens de erros devem ser claras e objetivas, em linguagem simples e que demonstre oque deu de errado.
 
+<details> <summary>Mau Exemplo</summary>Erro ao tentar entrar no site da receita federal</details>
+No caso mencionado, ao clicar no site, nos deparamos com uma mensagem de erro relacionada à conexão. Esse erro é de natureza técnica e não fornece informações claras para os usuários, às vezes exigindo que eles recorram a outra fonte em busca de uma solução.
+
 <details> <summary>Bom Exemplo</summary>Mensagem de erro ao dar merge no github</details>
 Ao analisarmos a imagem, podemos observar que o Git, ao detectar uma incompatibilidade entre branches, exibe uma mensagem de erro correspondente. Além disso, ele oferece possíveis soluções e ajuda ao usuário, sem comprometer o projeto. Essa abordagem torna a interface amigável para lidar com possíveis erros, evitando que o usuário tenha seu trabalho prejudicado. Dessa forma, o Git fornece suporte e orientação para que o usuário possa resolver problemas e continuar seu trabalho de forma segura e confiável.
 
 ### 10. Ajuda e documentação
 
 É essencial fornecer aos usuários uma área dedicada onde eles possam encontrar canais de comunicação e documentação detalhada sobre cada componente da interface. Embora possa não ser o principal foco ou a parte mais atraente do sistema, é de suma importância oferecer esse suporte ao usuário, caso ele precise.
+
+<details> <summary>Mau Exemplo</summary>Falta de documentação no site da receita federal </details>
+
+Ao examinarmos o site da Receita Federal, podemos observar que a ausência de um campo "ajuda" evidencia uma lacuna na disponibilidade de suporte e documentação para os usuários. Isso pode transmitir a sensação de descaso com relação à assistência ao usuário.
 
 <details> <summary>Bom Exemplo</summary>Documentação Github </details>
 Ao clicarmos no botão de ajuda na interface do Github, somos direcionados a uma página que contém uma documentação completa. Isso permite que tenhamos acesso a todas as informações e recursos necessários em caso de necessidade de ajuda.
